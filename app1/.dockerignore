@@ -1,0 +1,17 @@
+# Ignore node modules (will be installed in container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore Docker-related files (optional)
+.dockerignore
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore version control folders
+.git
+
