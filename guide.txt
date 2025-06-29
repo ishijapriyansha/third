@@ -1,0 +1,8 @@
+PS C:\Users\PC\Desktop\lab3> cd app1
+PS C:\Users\PC\Desktop\lab3\app1> docker build -t app456 .
+PS C:\Users\PC\Desktop\lab3\app1> docker run -d -p 8126:5000 app456
+4e941ef9c1c8d20aa387aa027b0d7da57c75380613e1cab909fb57c2d1ec5307
+PS C:\Users\PC\Desktop\lab3\app1> cd ..
+PS C:\Users\PC\Desktop\lab3> docker-compose build
+PS C:\Users\PC\Desktop\lab3>docker-compose up
+PS C:\Users\PC\Desktop\lab3>docker-compose logs app2
